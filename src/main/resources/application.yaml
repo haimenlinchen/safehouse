@@ -1,0 +1,8 @@
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/safehouse?useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&verifyServerCertificate=true&useSSL=true&requireSSL=true&clientCertificateKeyStoreUrl=file:/Users/linchen/keystores/clientkeystore&clientCertificateKeyStorePassword=mysql1111&trustCertificateKeyStoreUrl=file:/Users/linchen/keystores/truststore&trustCertificateKeyStorePassword=mysql1111
+    username: root
+    password: 11111111
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
